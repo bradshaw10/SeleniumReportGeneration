@@ -13,7 +13,7 @@ namespace SeleniumHTMLResults
     {
         public Browsers(ExtentReportsHelper reportsHelper)
         {
-            baseURL = ConfigurationManager.AppSettings["url"];
+            baseURL = System.Configuration.ConfigurationManager.AppSettings["url"].ToString();
             browser = ConfigurationManager.AppSettings["browser"];
             extentReportsHelper = reportsHelper;
         }
@@ -51,7 +51,8 @@ namespace SeleniumHTMLResults
         }
         public void Goto(string url)
         {
-            webDriver.Url = url;
+            string test = "{ \"url\": \"www.google.com\" }";
+            webDriver.Url = test;
             extentReportsHelper.SetStepStatusPass($"Browser navigated to the url [{url}].");
         }
         public void Close()

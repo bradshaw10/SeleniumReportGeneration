@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj": {}
+    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj": {
+    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj",
         "projectName": "ReportingLibrary",
-        "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj"
+        "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj": {
+    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj",
         "projectName": "SeleniumHelperLibrary",
-        "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj",
+        "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj": {
-                "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj"
+              "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj": {
+                "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj"
               }
             }
           }
@@ -33,14 +33,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj": {
+    "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
+        "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
         "projectName": "SeleniumHTMLResults",
-        "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
+        "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
         "packagesPath": "C:\\Users\\EBradshaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\obj\\",
+        "outputPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -62,11 +62,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj": {
-                "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj"
+              "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj": {
+                "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj"
               },
-              "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj": {
-                "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj"
+              "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj": {
+                "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj"
               }
             }
           }
@@ -113,10 +113,6 @@
               "target": "Package",
               "version": "[4.2.1, )"
             },
-            "Selenium.Chrome.WebDriver": {
-              "target": "Package",
-              "version": "[85.0.0, )"
-            },
             "Selenium.Firefox.WebDriver": {
               "target": "Package",
               "version": "[0.27.0, )"
@@ -128,6 +124,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[97.0.4692.7100, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

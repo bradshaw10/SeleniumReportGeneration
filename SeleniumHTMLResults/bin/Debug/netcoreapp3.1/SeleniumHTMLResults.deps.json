@@ -17,10 +17,10 @@
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.2.1",
           "ReportingLibrary": "1.0.0",
-          "Selenium.Chrome.WebDriver": "85.0.0",
           "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.Support": "4.1.0",
           "Selenium.WebDriver": "4.1.0",
+          "Selenium.WebDriver.ChromeDriver": "97.0.4692.7100",
           "SeleniumHelperLibrary": "1.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "coverlet.collector": "1.2.0"
@@ -392,7 +392,6 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "Selenium.Chrome.WebDriver/85.0.0": {},
       "Selenium.Firefox.WebDriver/0.27.0": {},
       "Selenium.Support/4.1.0": {
         "dependencies": {
@@ -416,6 +415,7 @@
           }
         }
       },
+      "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -914,13 +914,6 @@
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
     },
-    "Selenium.Chrome.WebDriver/85.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wRg7it2bBMyYtOsarTy0bWtS2fCZI08KGTef2kH381DYpGP+wX8j6f/7ABv1nmrUj5CCVmTeDeYeXS5g00JXSw==",
-      "path": "selenium.chrome.webdriver/85.0.0",
-      "hashPath": "selenium.chrome.webdriver.85.0.0.nupkg.sha512"
-    },
     "Selenium.Firefox.WebDriver/0.27.0": {
       "type": "package",
       "serviceable": true,
@@ -941,6 +934,13 @@
       "sha512": "sha512-d4smisz4a/wJCM2TzkKTl+BLfvZUTvaobhKElDfCVZlvY8ThsC8VAoBNWTlg1H/GGzIP//yVGko/W0FILTgkYA==",
       "path": "selenium.webdriver/4.1.0",
       "hashPath": "selenium.webdriver.4.1.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/5wf4Rv9vTmab2qWo3enuYLoumOyVb6+rO0f2hbym+MQzDGYb7GpadhWk/jgNtUf6eFvsqL90TyzXrcCfOhCyQ==",
+      "path": "selenium.webdriver.chromedriver/97.0.4692.7100",
+      "hashPath": "selenium.webdriver.chromedriver.97.0.4692.7100.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

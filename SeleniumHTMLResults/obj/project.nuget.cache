@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Q4iiywS6qG56xeKW17eC5JojY+6X0VpZb1QItjt0siBkVrt9GRipaXaGrbBkVj7I38xOypJgKpiAnQVnmqmBA==",
+  "dgSpecHash": "607BYQFKGS7zeNQSvpk3Vtd8rN66KMicDB+Q4PKol6DtqZwec42Fi2tgltzqlf95erEnxO7NxXQDuX+I8qwOsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
+  "projectFilePath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EBradshaw\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
@@ -23,10 +23,10 @@
     "C:\\Users\\EBradshaw\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\EBradshaw\\.nuget\\packages\\selenium.chrome.webdriver\\85.0.0\\selenium.chrome.webdriver.85.0.0.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\selenium.firefox.webdriver\\0.27.0\\selenium.firefox.webdriver.0.27.0.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\selenium.support\\4.1.0\\selenium.support.4.1.0.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\EBradshaw\\.nuget\\packages\\selenium.webdriver.chromedriver\\97.0.4692.7100\\selenium.webdriver.chromedriver.97.0.4692.7100.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\EBradshaw\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

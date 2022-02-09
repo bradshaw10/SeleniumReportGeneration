@@ -434,12 +434,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Selenium.Chrome.WebDriver/85.0.0": {
-        "type": "package",
-        "build": {
-          "build/Selenium.Chrome.WebDriver.targets": {}
-        }
-      },
       "Selenium.Firefox.WebDriver/0.27.0": {
         "type": "package",
         "build": {
@@ -468,6 +462,12 @@
         },
         "runtime": {
           "lib/netstandard2.1/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1639,19 +1639,6 @@
         "runtime.native.system.nuspec"
       ]
     },
-    "Selenium.Chrome.WebDriver/85.0.0": {
-      "sha512": "wRg7it2bBMyYtOsarTy0bWtS2fCZI08KGTef2kH381DYpGP+wX8j6f/7ABv1nmrUj5CCVmTeDeYeXS5g00JXSw==",
-      "type": "package",
-      "path": "selenium.chrome.webdriver/85.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Selenium.Chrome.WebDriver.targets",
-        "driver/chromedriver.exe",
-        "selenium.chrome.webdriver.85.0.0.nupkg.sha512",
-        "selenium.chrome.webdriver.nuspec"
-      ]
-    },
     "Selenium.Firefox.WebDriver/0.27.0": {
       "sha512": "HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
       "type": "package",
@@ -1701,6 +1688,24 @@
         "lib/netstandard2.1/WebDriver.dll",
         "selenium.webdriver.4.1.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {
+      "sha512": "/5wf4Rv9vTmab2qWo3enuYLoumOyVb6+rO0f2hbym+MQzDGYb7GpadhWk/jgNtUf6eFvsqL90TyzXrcCfOhCyQ==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/97.0.4692.7100",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.97.0.4692.7100.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -2923,10 +2928,10 @@
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.2.1",
       "ReportingLibrary >= 1.0.0",
-      "Selenium.Chrome.WebDriver >= 85.0.0",
       "Selenium.Firefox.WebDriver >= 0.27.0",
       "Selenium.Support >= 4.1.0",
       "Selenium.WebDriver >= 4.1.0",
+      "Selenium.WebDriver.ChromeDriver >= 97.0.4692.7100",
       "SeleniumHelperLibrary >= 1.0.0",
       "System.Configuration.ConfigurationManager >= 6.0.0",
       "coverlet.collector >= 1.2.0"
@@ -2940,11 +2945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
+      "projectUniqueName": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
       "projectName": "SeleniumHTMLResults",
-      "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
+      "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\SeleniumHTMLResults.csproj",
       "packagesPath": "C:\\Users\\EBradshaw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHTMLResults\\obj\\",
+      "outputPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHTMLResults\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2966,11 +2971,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj": {
-              "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\ReportingLibrary\\ReportingLibrary.csproj"
+            "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj": {
+              "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\ReportingLibrary\\ReportingLibrary.csproj"
             },
-            "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj": {
-              "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj"
+            "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj": {
+              "projectPath": "C:\\Users\\EBradshaw\\source\\repos\\SeleniumHTMLResults\\SeleniumReportGeneration\\SeleniumHelperLibrary\\SeleniumHelperLibrary.csproj"
             }
           }
         }
@@ -3017,10 +3022,6 @@
             "target": "Package",
             "version": "[4.2.1, )"
           },
-          "Selenium.Chrome.WebDriver": {
-            "target": "Package",
-            "version": "[85.0.0, )"
-          },
           "Selenium.Firefox.WebDriver": {
             "target": "Package",
             "version": "[0.27.0, )"
@@ -3032,6 +3033,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[97.0.4692.7100, )"
           },
           "System.Configuration.ConfigurationManager": {
             "target": "Package",
