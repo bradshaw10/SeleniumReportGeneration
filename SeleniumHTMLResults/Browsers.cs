@@ -13,7 +13,7 @@ namespace SeleniumHTMLResults
     {
         public Browsers(ExtentReportsHelper reportsHelper)
         {
-            baseURL = System.Configuration.ConfigurationManager.AppSettings["url"].ToString();
+            baseURL = System.Configuration.ConfigurationManager.AppSettings["url"];
             browser = ConfigurationManager.AppSettings["browser"];
             extentReportsHelper = reportsHelper;
         }
